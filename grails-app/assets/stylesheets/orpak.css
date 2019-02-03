@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  background-color: #FFF;
+}
+
+.form-signin {
+  border: 15px solid #f6f6f6;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  padding: 30px;
+  border: 1px solid #e9e9e9;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 0px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.orpaklw	 {
+      background: #FFFEFD;
+      width: 100%;
+      margin-top: 22px;
+      
+}
+
+.orpakfooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    min-height: 30px;
+    background: #232323;
+    font-size: 13px;
+    line-height: 1;
+    font-weight: 300;    
+    margin-top: 30px;
+}
+.orpakfooter .copyright {
+    color: #FFF;
+}
+
+.orpakborder { 
+    margin-top: 10px;
+}
+
+.wellcome-message{
+    position: relative;
+    font-size: 14px;
+    top: 10px;
+    left: 30px;
+}
+
+.orpakheader	 {      
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left : 0px;
+    height: 70px;
+    border-bottom: 1px solid #cecece;
+    border-bottom-width: 2px;
+} 
+
+.orpakimg-responsive,
+.orpakthumbnail > img,
+.orpakthumbnail a > img,
+.orpakcarousel-inner > .item > img,
+.orpakcarousel-inner > .item > a > img {
+  max-width: 100%;
+  height: auto;
+  margin-left : 10px;
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+   .wellcome-message{
+       position: relative;
+       font-size: 14px;
+       top: 10px;
+       left: 30px;
+    }
+    
+    .orpakheader	 {      
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left : 0px;
+        height: 70px;
+        border-bottom: 1px solid #cecece;
+        border-bottom-width: 2px;
+    }
+    
+    .orpakimg-responsive,
+    .orpakthumbnail > img,
+    .orpakthumbnail a > img,
+    .orpakcarousel-inner > .item > img,
+    .orpakcarousel-inner > .item > a > img {
+        max-width: 100%;
+        height: auto;
+        margin-left : 10px;
+    }      
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .wellcome-message{
+       position: relative;
+       font-size: 14px;
+       top: 10px;
+       left: 30px;
+    }
+    
+    .orpakheader	 {      
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left : 0px;
+        height: 70px;
+        border-bottom: 1px solid #cecece;
+        border-bottom-width: 2px;
+    }
+
+    .orpakimg-responsive,
+    .orpakthumbnail > img,
+    .orpakthumbnail a > img,
+    .orpakcarousel-inner > .item > img,
+    .orpakcarousel-inner > .item > a > img {
+        max-width: 100%;
+        height: auto;
+        margin-left : 10px;
+    }        
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+   .wellcome-message{
+       position: relative;
+       font-size: 14px;
+       top: 10px;
+       left: 30px;
+    }
+    
+    .orpakheader	 {      
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left : 0px;
+        height: 70px;
+        border-bottom: 1px solid #cecece;
+        border-bottom-width: 2px;
+    }
+
+    .orpakimg-responsive,
+    .orpakthumbnail > img,
+    .orpakthumbnail a > img,
+    .orpakcarousel-inner > .item > img,
+    .orpakcarousel-inner > .item > a > img {
+        max-width: 100%;
+        height: auto;
+        margin-left : 10px;
+    }    
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+   .wellcome-message{
+       position: relative;
+       font-size: 11px;
+       top: 10px;
+       left: 0px;
+    }    
+    
+    .orpakheader	 {      
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left : 0px;
+        height: 70px;
+        border-bottom: 1px solid #cecece;
+        border-bottom-width: 2px;
+    }
+
+    .orpakimg-responsive,
+    .orpakthumbnail > img,
+    .orpakthumbnail a > img,
+    .orpakcarousel-inner > .item > img,
+    .orpakcarousel-inner > .item > a > img {
+        max-width: 100%;
+        height: auto;
+        margin-left : 10px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+   .wellcome-message{
+       position: relative;
+       font-size: 11px;
+       top: 10px;
+       left: 0px;
+    }  
+    
+    .orpakheader	 {      
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left : 0px;
+        height: 50px;
+        border-bottom: 1px solid #cecece;
+        border-bottom-width: 2px;
+    }  
+
+    .orpakimg-responsive,
+    .orpakthumbnail > img,
+    .orpakthumbnail a > img,
+    .orpakcarousel-inner > .item > img,
+    .orpakcarousel-inner > .item > a > img {
+        max-width: 100%;
+        height: 70px;
+        margin-left : 10px;
+    }
+}
+
+.orpaknavbar-default {
+  background-color: #FFFEFD;
+  border-color: #FFFEFD;
+}
+
+
+/* customizing bootstrap nav bar */
+#custom-bootstrap-menu.navbar {
+    margin-bottom: 0px;
+    padding-right: 0px;
+}
+#custom-bootstrap-menu.navbar .container {
+    margin: 10px;
+}
+#custom-bootstrap-menu.navbar-default a {
+    color: #a6a6a6 !important;
+    font-size: 18px !important;
+    text-decoration: none;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    background-color: #e82682 !important;
+    color: white !important;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: #FFFEFD;
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 0px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+}
+
+
